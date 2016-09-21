@@ -11,9 +11,8 @@ Create db schema by running the [MySql single file script](https://github.com/am
 
 ### Run the example
 - Download/clone the project 
-- Import in Eclipse 
-- Run Configuration -> Goals `clean install jetty:run`
-
+- Import in Eclipse and Run Configuration -> Goals `clean install jetty:run`
+- Or by command: mvn clean install jetty:run -Djetty.port=8888 -DskipTests=true
 ==
 ### Blog post on [Codingpedia.org](http://www.codingpedia.org)
 [RESTful Web Services Example in Java with Jersey, Spring and MyBatis](http://www.codingpedia.org/ama/restful-web-services-example-in-java-with-jersey-spring-and-mybatis/)
